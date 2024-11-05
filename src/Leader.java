@@ -5,7 +5,7 @@ public abstract class Leader {
 
     public abstract String giveSpeech();
 
-    public void printDetails(String name, String country, int yearsInPower){
+    public void printDetails(){
         System.out.println(name + "\n" + country + "\n" + yearsInPower);
     }
 }
